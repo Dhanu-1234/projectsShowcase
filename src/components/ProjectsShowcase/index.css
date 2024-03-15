@@ -1,0 +1,92 @@
+.app-container {
+  height: auto;
+  width: 100%;
+}
+
+.header {
+  background-color: #f1f5f9;
+  padding: 20px;
+}
+
+.logo-styles {
+  height: 50px;
+  width: 130px;
+  margin-left: 50px;
+}
+
+.content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-left: 70px;
+}
+
+.dropdown-styles {
+  width: 300px;
+  padding: 10px;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cbd5e1;
+  border-radius: 8px;
+  outline: none;
+}
+
+.loader-container {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-list {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.failure-bg-container {
+  width: 100%;
+  height: 59vh;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-img {
+  height: 300px;
+  width: 400px;
+}
+
+.failure-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  margin: 10px;
+}
+
+.failure-description {
+  color: #475569;
+  font-family: 'Roboto';
+  margin: 10px;
+}
+
+.retry-btn {
+  background-color: #328af2;
+  color: #ffffff;
+  padding: 10px 20px 10px;
+  border-width: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}

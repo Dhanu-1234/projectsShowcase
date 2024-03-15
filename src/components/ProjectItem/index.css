@@ -1,0 +1,24 @@
+.list-item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: #e2e8f0 2px 2px 2px 2px;
+}
+
+.list-item: hover {
+  transform: scale(1.5);
+}
+
+.project-img {
+  height: 150px;
+  width: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.project-name {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin: 10px;
+}
